@@ -1,0 +1,334 @@
+#sidebar
+{
+	width:20%;
+	float:left;
+	background-color:#C0392B;
+	min-height:92.5vh;
+    display: none;
+}
+#show
+{
+    cursor: pointer;
+}
+#hide
+{
+    display: none;
+    cursor: pointer;
+}
+#DboardNInventory
+{
+    background-color: #e74c3c;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#graph1
+{
+    width:50%;
+    overflow:hidden;
+}
+#DboardOutOfStock{
+    background-color: #3498db;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#DboardNearlyExpired{
+    background-color: #2ecc71;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#DboardReorderPoint{
+    background-color:  #9b59b6;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#search
+{
+	margin:auto;
+	display:none;
+	height:150px;
+	width:100%;
+    margin-top:23px;
+    margin-bottom:-23px;
+}
+#Inventory
+{
+    
+	float:left;
+	width:100%;
+	min-height:92.5vh;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 80vh 80vh;
+}
+.Textboxes
+{
+	width:70%;
+	height:35px;
+	border-radius:0;
+	box-shadow:0px;
+	padding:6px 12px;
+}
+.Textboxes:focus
+{
+  border-color: #e74c3c;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 2px 2px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+#Legend
+{
+	margin-top:150px;
+	position:relative;
+	width:100%;
+	height:30%;
+}
+#tablets
+{
+	height:50%;
+}
+#Color1
+{
+	background-color: #3498db;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:120px;
+
+}
+#Color2
+{
+	background-color: #2ecc71;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:120px;
+}
+#Color3
+{
+	background-color: #9b59b6;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:120px;
+}
+#Color4
+{
+	background-color:#e74c3c;
+	width:20%;
+	margin-left:5.5%;
+	float:left;
+	height:120px;
+}
+.spancolor
+{
+	background-color:white;
+	width:90%;
+	
+}
+#dib
+{
+	width:100%;
+    margin-top:6.3%;
+    position:relative;
+}
+#dib2{
+    height: 230px;
+    margin-top:6.3%;
+    width:100%;
+    position:relative;
+}
+.Lbl
+{
+	float:left;
+	margin-top:5px;
+	font-size: 	40px;
+}
+.navbar-brand{
+    -webkit-touch-calblout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.logo{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#See:hover,
+#See.active{
+    border-left: 10px solid #eee;
+}
+#Charts
+{
+    visibility: hidden;
+    position:absolute;
+    width:100%;
+    margin-top:9.5%;
+}
+.graphsz
+{
+  width: 100%;
+  height:350px;
+  text-align: center;
+}
+.graphsz1
+{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left:9%;
+  float:left;
+}
+#dboard:hover{
+    border-left: 10px solid #eee;
+}
+#dboard::after{
+    margin-left: 56px;
+}
+#see1 {
+  float: right;
+    height: 46px;
+    width: 29px;
+    margin-top: -12px;
+    margin-right: -14px;
+    
+}
+#hey:hover{
+    border-left: 10px solid #eee;
+}
+#MUser:hover{
+   border-left: 10px solid #eee;
+}
+#see2 {
+    float: right;
+    height: 46px;
+    width: 29px;
+    margin-top: -12px;
+    margin-right: -14px;
+    display: none;
+}
+#MUin:hover{
+    border-left: 10px solid #eee;
+}
+#see3 {
+    float: right;
+    height: 46px;
+    width: 29px;
+    margin-top: -12px;
+    margin-right: -14px;
+    display: none;
+}
+#Graph:hover{
+    border-left: 10px solid #eee;
+}
+#see4 {
+    float: right;
+    height: 46px;
+    width: 29px;
+    margin-top: -12px;
+    margin-right: -14px;
+    display: none;
+}
+#Msup:hover{
+    border-left: 10px solid #eee;
+}
+#see5 {
+    float: right;
+    height: 46px;
+    width: 29px;
+    margin-top: -12px;
+    margin-right: -14px;
+    display: none;
+}
+#Reports:hover{
+    border-left: 10px solid #eee;
+}
+#Notify:hover{
+    border-left: 10px solid #eee;
+}
+#UpdateOQ:hover{
+    border-left: 10px solid #eee;
+}
+@-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+@-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+@keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+.pulse {
+border:1px solid transparent;
+-moz-transition:all 1s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
+-o-transition:all 1s ease-in-out;
+-ms-transition:all 1s ease-in-out;
+transition:all 1s ease-in-out;
+/* order: name, direction, duration, iteration-count, timing-function */  
+-moz-animation:blink normal 1s infinite ease-in-out; /* Firefox */
+-webkit-animation:blink normal 1s infinite ease-in-out; /* Webkit */
+-ms-animation:blink normal 1s infinite ease-in-out; /* IE */
+animation:blink normal 1s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+.NI{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.OS{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.NE{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.RP{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+#TableScroll1
+{
+    height:350px;
+    overflow-y:scroll;
+}
+#TableScroll
+{
+    height:350px;
+    overflow-y:scroll;
+}
+#TableScroll2
+{
+    height:400px;
+    overflow-y:scroll;
+}

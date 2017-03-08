@@ -1,0 +1,115 @@
+body{
+    padding: 30px;
+}
+h1{
+    margin-left: 50px;
+}
+#NInventory{
+    background-color: #3498db;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#OutOfStock{
+    background-color: #2ecc71;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#NearlyExpired{
+    background-color: #9b59b6;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ReorderPoint{
+    background-color: #e74c3c;
+	width:20%;
+	margin-left:3%;
+	float:left;
+	height:140px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.spancolor
+{
+	background-color:white;
+	width:90%;
+	
+}
+.NI{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.OS{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.NE{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.RP{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    height: 70px;
+    width: 70px;
+}
+.count{
+    position: relative;
+    margin-right: 25px;
+    margin-top: 5px;
+    float: right;
+}
+#table{
+    background-color: WHITE;
+	width:89%;
+	margin-left:3%;
+    float: left;
+    margin-top: 30px;
+	height:350px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-left: 2px solid #3498db;
+    border-right: 2px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    border-top: 25px solid #3498db;
+}
+.tabtitle{
+    margin-top: -21px;
+    margin-left: 5px;
+    color: white;
+}
+.tablecon{
+    padding:5px;
+    position: relative;
+}
+.table{
+    width:825px;
+    border: none;
+    position: relative;
+    margin-left: 220px;
+}
+.table, th, td {
+    border: 1px solid gray;
+    border-collapse:collapse;
+}
